@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+.left {
+  flex: 0 0 6rem;
+}
+
+.right {
+  flex: 1;
+}
+
+.category {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.withComment {
+  margin-top: 1rem;
+}
+
+.comment {
+  font-style: italic;
+  margin: 0;
+}
+
+.comment:before {
+  content: "“";
+  display: inline-block;
+}
+
+.comment:after {
+  content: "”";
+  display: inline-block;
+}
+
+@media only screen and (max-width: 650px) {
+  .container {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+
+  .right {
+    text-align: center;
+  }
+}

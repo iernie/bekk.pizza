@@ -1,0 +1,89 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: NewZaldBook, serif;
+  font-size: 16px;
+  background: black;
+  color: white;
+}
+
+main {
+  margin: auto;
+  padding: 2rem;
+}
+
+header {
+  padding-top: 5rem;
+  color: black;
+  background-color: rgb(255, 174, 0);
+}
+
+header div {
+  margin: auto;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 1025px) {
+  main {
+    width: 75%;
+    max-width: 1300px;
+    margin-left: calc(max((100vw - 2000px) / 2, 15%));
+  }
+
+  header div {
+    width: 75%;
+    max-width: 1300px;
+    margin-left: calc(max((100vw - 2000px) / 2, 15%));
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  font-size: 1.5rem;
+  padding: 0 0 0 1.5rem;
+  list-style-type: circle;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
