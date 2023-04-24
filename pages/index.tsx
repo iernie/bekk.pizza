@@ -18,10 +18,10 @@ const Index = () => {
             </div>
             <div className={styles.right}>4.8/6</div>
           </Link>
-          <Link className={styles.place} href="https://skjer.bekk.no/pizza">
+          <Link className={styles.place} href="/teatro">
             <div className={styles.left}>
               <p>Teatro</p>
-              <small>TBD</small>
+              <small>28.04.2023</small>
             </div>
             <div className={styles.right}>?/6</div>
           </Link>
